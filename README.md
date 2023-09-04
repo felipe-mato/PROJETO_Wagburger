@@ -3,10 +3,10 @@
 ![img](logoHeader.png)
 
 # Descrição
-Atenção! 
-Esse é um projeto em andamento!
+Atenção!  
+Esse é um projeto em andamento!  
 Até o presente momento a aplicação faz uso da API do MercadoLivre.
-Futuramente, irei desenvolver e implementar minha própria aplicação do Wagburger. Assim como implementar novas funcionalidades, e otimizar funcionalidades já existentes
+Futuramente, irei desenvolver e implementar minha própria aplicação do Wagburger. Assim como implementar novas funcionalidades, e otimizar funcionalidades já existentes.  
 Essa aplicação é um carrinho de compras de uma lanchonete fictícia chamada
 Wagburger que utilizar React e hooks para gerenciar estados.
 
