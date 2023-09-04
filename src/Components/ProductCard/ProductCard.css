@@ -1,0 +1,113 @@
+.product-card {
+  width: 100%;
+  max-width: 250px;
+  max-height: 335px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  background-color: white;  
+}
+
+.product-card:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card__image {
+  padding: 5px;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.card__infos {
+  flex: 1;
+  padding: 10px 45px;
+  border-top: 1px solid#ddd;
+}
+
+.card__price {
+  font-size: clamp(1px, 2vw, 20px);
+  font-weight: 400;
+  display: block;
+  margin-bottom: 1px;
+}
+
+.card__title {
+  /* color: rgba(255, 255, 255, 0.9); */
+  color: red;
+  width: 125px;
+  height: 50px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: clamp(1px, 1.4vw, 25px);
+}
+
+.counter-container {
+  width: 100%;
+  background-color: #0059b3;
+  color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+
+.button__add-cart {
+  background-color: #922b2c;
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  margin-right: 60px;
+  border: none;
+  border-radius: 2px;
+  right: 0;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button__add-cart:hover {
+  background-color: #ff0000;
+  border: 1px solid #922b2c;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button__rmv-cart {
+  background-color: #922b2c;
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  margin-left: 60px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 2px;
+  left: 0;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button__rmv-cart:hover {
+  background-color: #ff0000;
+  border: 1px solid #922b2c;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
